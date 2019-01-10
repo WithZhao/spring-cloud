@@ -14,9 +14,6 @@ security:
   user:
     name: user
     password: password
-  basic:
-    enabled: false
-  ignored: /**
   oauth2:
     client:
       clientId: svcd-service
@@ -25,6 +22,3 @@ security:
       grant-type: client_credentials
       scope: server
 
-management:
-  security:
-    enabled: false

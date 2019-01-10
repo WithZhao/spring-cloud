@@ -11,9 +11,6 @@ eureka:
       user.password: password
 
 security:
-  user:
-    name: user
-    password: password
   oauth2:
     client:
       clientId: svcd-service

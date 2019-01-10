@@ -1,7 +1,7 @@
 server:
-  port: 8766
-
-name: zhangxd
+  port: 8882
+  
+msg: Hello
 
 eureka:
   instance:

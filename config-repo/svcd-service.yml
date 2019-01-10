@@ -3,6 +3,10 @@ server:
   
 msg: Hello
 
+management:
+  security:
+    enabled: false
+
 eureka:
   instance:
     metadata-map:

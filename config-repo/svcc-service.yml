@@ -3,6 +3,10 @@ server:
 
 name: zhangxd
 
+management:
+  security:
+    enabled: false
+
 eureka:
   instance:
     metadata-map:
